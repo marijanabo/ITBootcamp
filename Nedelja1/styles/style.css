@@ -1,0 +1,277 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* header */
+header {
+    background-color: rgb(247, 247, 211);
+    position: fixed;
+    width: 100%;
+}
+
+.header {
+    height: 7vh;
+}
+
+div p {
+    font-size: 30px;
+    color: rgb(54, 54, 54);
+    font-weight: 600;
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+.header2 div {
+    height: 7vh;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 60px;
+    margin-left: 30px;
+    text-transform: uppercase;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: large;
+    font-weight: 500;
+    font-size: 22px;
+    padding-right: 5px;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(151, 136, 109);
+    transition: color 0.5s;
+}
+
+nav ul li:hover {
+    border-bottom: 1px solid rgb(54, 54, 54)
+}
+
+nav ul li a:hover {
+    color: rgb(54, 54, 54);
+}
+
+.right-side {
+    padding-left: 65%;
+}
+
+
+
+/* main */
+
+/* home page */
+.intro-wrap {
+    display: inline-block;
+    margin-top: 150px;
+}
+
+.intro {
+    float: left;
+    width: 500px;
+}
+
+.intro > h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 60px;
+    padding-top: 55px;
+}
+
+.intro > h1 > p {
+    font-size: 50px;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 30px;
+}
+
+.wallpaper {
+    float: right;
+    width: 700px;
+}
+
+
+/* about page */
+.about {
+    margin-top: 135px;
+}
+
+h1 {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 30px;
+}
+
+p {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+
+/* work page */
+.work {
+    margin-top: 105px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "a b c" "d e f";
+    height: 400px;
+    padding-top: 20px;
+    align-items: left;
+}
+  
+.a { background-color:rgb(173, 173, 79) ; grid-area: a; }
+  
+.b { background-color:rgb(202, 202, 102) ; grid-area: b; }
+  
+.c { background-color:rgb(238, 238, 146) ; grid-area: c; }
+  
+.d { background-color:rgb(201, 201, 118) ; grid-area: d; }
+  
+.e { background-color:rgb(143, 143, 93) ; grid-area: e; }
+  
+.f { background-color:rgb(184, 184, 107) ; grid-area: f; }
+
+.image {
+      height: 200px;
+      width: 350px;
+      align-items: left;
+}
+
+.description {
+      font-size: 18px;
+      font-weight: 500;
+      text-transform: uppercase;
+      color: rgb(39, 39, 39);
+      margin-top: 2px;
+      text-align: left;
+      margin-left: 23px;
+}
+
+
+/* contact page */
+.contact {
+    margin-top: 135px;
+}
+
+.email-wrap {
+    padding-top: 20px;
+    text-align: left;
+}
+
+.name-box {
+    width: 400px;
+    height: 25px;
+    margin: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(114, 114, 114);
+    font-size: 16px;
+    color: rgb(114, 114, 114);
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-top: 35px;
+} 
+
+.email-box{
+    width: 400px;
+    height: 25px;
+    margin: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(114, 114, 114);
+    font-size: 16px;
+    color: rgb(114, 114, 114);
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+
+.message-box {
+    width: 400px;
+    height: 95px;
+    margin: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(114, 114, 114);
+    font-size: 16px;
+    color: rgb(114, 114, 114);
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+  
+.send-button {
+    width: 180px;
+    height: 50px;
+    background-color: rgb(247, 247, 211);
+    border-style: solid ; 
+    border-color:  rgb(54, 54, 54);
+    margin: auto;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 30px;
+}
+
+.send-button a{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(54, 54, 54);
+    text-decoration: none;
+}
+
+.main-container {
+    height: 30vh;
+}
+
+.logos {
+    margin: auto;
+    width: 500px;
+    text-align: center;
+    margin-top: 30px;
+    list-style: none;
+}
+
+.logos > .logo {
+    display: inline-block;
+    padding: 20px;
+}
+
+
+/* footer */
+.footer-container {
+      background-color: rgb(54, 54, 54);
+      height: 6vh;
+      padding-left: 47vw;
+}
+
+.footer-container > .text {
+      font-size: 12px;
+      color: beige;
+      padding-top: 7px;
+}
