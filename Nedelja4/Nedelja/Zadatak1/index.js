@@ -52,7 +52,6 @@ pokemoni.push(pokemon1, pokemon2, pokemon3, pokemon4)
 console.log(pokemoni)
 
 console.log('-----------------')
-
 //2.zadatak
 function sposobnostiPokemona(x){
     let nizSposobnosti =[]
@@ -70,10 +69,10 @@ console.log('----------------')
 let sortiranoPoBrzini = pokemoni.sort((a,b) => a.karakteristike.brzina - b.karakteristike.brzina)
 console.log(sortiranoPoBrzini)
 
-
-//DOMACI ZA NEDELJU:
+console.log('---------------')
 
 //4.zadatak
+
 function pobednik(){
     pokemoni.sort((a,b)=> b.karakteristike.napad - a.karakteristike.napad)
     const najjaci = pokemoni[0]
