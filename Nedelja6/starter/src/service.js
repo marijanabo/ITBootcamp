@@ -5,5 +5,5 @@ export const getCompanyName = () => {
 }
 
 export const getPastLaunches = () => {
-    return axios.get(`https://api.spacexdata.com/v3/launches`)
+    return axios.get(`https://api.spacexdata.com/v3/launches/past`)
 }

@@ -7,7 +7,7 @@ export const PastLaunches = () => {
     // const launchList = document.createElement('div')
     // launchList.className = 'launch-list'
     getPastLaunches().then(res => {
-        res.data.filter(launch => launch.launch_year <= 2020).forEach(launch => {
+        res.data.forEach(launch => {
             launchList.appendChild(Launch(launch))
             app.appendChild(launchList)
         })
