@@ -24,10 +24,10 @@ const App = () => {
 
       <Switch>
         <Route exact path='/'>
-          <ListaKorisnika users={users} />
+          <ListaKorisnika users={users} setUsers={setUsers}/>
         </Route>
         <Route path='/pretraga'>
-          <Pretraga users={users}/>
+          <Pretraga users={users} setUsers={setUsers}/>
         </Route>
       </Switch>
     </Router>
